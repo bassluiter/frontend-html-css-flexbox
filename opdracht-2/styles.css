@@ -1,0 +1,134 @@
+
+/*--------------global -----------------------*/
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+
+/*--------------navbar section -----------------------*/
+.nav-container {
+    background-color: #f3f3f3;
+    border: solid darkgray;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-width: 250px;
+    max-width: 450px;
+}
+div img:first-of-type {
+    width: 25px;
+}
+.nav-container div {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid pink;
+    gap: 15px;
+    align-items: center;
+    flex-grow: 0;
+}
+ul {
+    list-style: none;
+    border: 2px solid orange;
+    flex-grow: 1;
+}
+li a {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+li img {
+    width: 15px;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    width: 100%;
+    align-items: center;
+    background-color: red;
+    gap: 10px;
+
+}
+.button-container li{
+    width: 100%;
+
+}
+button {
+    width: 100%;
+}
+
+
+
+
+/*--------------header section -----------------------*/
+
+header {
+    border: solid blue;
+    background-image: url("../assets/placeholder-image.svg");
+    background-position: center;
+    text-align: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+
+/*--------------main section -----------------------*/
+.main-container {
+    display: flex;
+    flex-direction: column;
+    border: solid cyan;
+    overflow: scroll;
+    flex-grow: 3;
+    flex-shrink: 3;
+    flex-basis: 0;
+}
+main {
+    flex: 1;
+}
+.product-card-container {
+    border: solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px
+}
+.product-card {
+    display: flex;
+    flex-basis: 260px;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+    flex-grow: 2;
+}
+.product-card-price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product-card-price-container > img{
+    height: 20px;
+}
+
+/*--------------footer section -----------------------*/
+ footer {
+     background-color: #383838;
+     text-align: center;
+     color: white;
+     padding: 10px 0;
+     margin-top: auto;
+ }
+

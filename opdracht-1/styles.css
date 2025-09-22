@@ -1,0 +1,114 @@
+
+/*------------------  1a  --------------------------*/
+.navbar-one ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+/*------------------  1b  --------------------------*/
+
+.navbar-two ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    /*border: 2px solid yellow;*/
+}
+
+
+/*------------------  1c  --------------------------*/
+.navbar-three {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /*border: 2px solid green;*/
+
+}
+.navbar-three div {
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 2px solid yellow;*/
+}
+.navbar-three ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /*border: 2px solid red;*/
+}
+
+/*------------------  1d  --------------------------*/
+
+
+.navbar-four {
+    display: flex;
+    width: 100%;
+    column-gap: 20px;
+    /*border: 2px solid green;*/
+
+}
+.navbar-four div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 180px;
+    align-items: center;
+    /*border: 2px solid yellow;*/
+}
+.navbar-four ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    /*border: 2px solid red;*/
+}
+.navbar-four ul:nth-of-type(2){
+    display: flex;
+    width: fit-content;
+    column-gap: 20px;
+    justify-content: flex-end;
+    /*border: 2px solid blue;*/
+}
+
+/*------------------  1e  --------------------------*/
+
+.navbar-five {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /*border: 2px solid green;*/
+}
+.navbar-five div {
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 2px solid yellow;*/
+}
+.navbar-five ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*border: 2px solid red;*/
+}
+.navbar-five ul:nth-of-type(2){
+    display: flex;
+    width: fit-content;
+    column-gap: 20px;
+    flex-grow: 0;
+    /*border: 2px solid blue;*/
+}
+
