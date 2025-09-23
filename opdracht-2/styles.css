@@ -16,10 +16,8 @@ body {
     flex-direction: column;
     justify-content: start;
     flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-    min-width: 250px;
-    max-width: 450px;
+    flex-shrink: 3;
+    flex-basis: 300px;
 }
 div img:first-of-type {
     width: 25px;
@@ -51,7 +49,6 @@ li img {
     flex-grow: 0;
     width: 100%;
     align-items: center;
-    background-color: red;
     gap: 10px;
 
 }
@@ -62,8 +59,6 @@ li img {
 button {
     width: 100%;
 }
-
-
 
 
 /*--------------header section -----------------------*/
@@ -81,18 +76,15 @@ header {
     padding: 20px;
 }
 
-
-
-
 /*--------------main section -----------------------*/
 .main-container {
     display: flex;
     flex-direction: column;
     border: solid cyan;
     overflow: auto;
-    flex-grow: 3;
-    flex-shrink: 3;
-    flex-basis: 0;
+    flex-grow: 8;
+    flex-shrink: 1;
+    flex-basis: 50vw;
 }
 
 .product-card-container {
@@ -107,12 +99,12 @@ header {
 }
 .product-card {
     display: flex;
-    flex-basis: 200px;
+    flex-basis: 230px;
     flex-grow: 1;
     flex-shrink: 1;
     max-width: 260px;
     flex-direction: column;
-    row-gap: 30px;
+    row-gap: 10px;
     justify-content: space-between;
 }
 .product-card-price-container {
@@ -132,4 +124,3 @@ header {
      padding: 10px 0;
      margin-top: auto;
  }
-
