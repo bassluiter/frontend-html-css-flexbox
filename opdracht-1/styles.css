@@ -8,9 +8,7 @@
     justify-content: space-between;
 }
 
-
 /*------------------  1b  --------------------------*/
-
 .navbar-two ul {
     list-style: none;
     display: flex;
@@ -20,14 +18,12 @@
     /*border: 2px solid yellow;*/
 }
 
-
 /*------------------  1c  --------------------------*/
 .navbar-three {
     display: flex;
     width: 100%;
     justify-content: space-between;
     /*border: 2px solid green;*/
-
 }
 .navbar-three div {
     display: flex;
@@ -47,14 +43,11 @@
 }
 
 /*------------------  1d  --------------------------*/
-
-
 .navbar-four {
     display: flex;
     width: 100%;
     column-gap: 20px;
     /*border: 2px solid green;*/
-
 }
 .navbar-four div {
     display: flex;
@@ -82,7 +75,6 @@
 }
 
 /*------------------  1e  --------------------------*/
-
 .navbar-five {
     display: flex;
     width: 100%;
@@ -111,4 +103,3 @@
     flex-grow: 0;
     /*border: 2px solid blue;*/
 }
-
